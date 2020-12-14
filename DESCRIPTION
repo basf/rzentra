@@ -1,0 +1,27 @@
+Package: rzentra
+Title: An R Client for Zentracloud API
+Version: 0.1.0
+Authors@R: 
+    c(person(given = "Eduard", family = "Szöcs", 
+        role = c("aut", "cre"), email = "eduard.szoecs@basf.com"),
+      person("BASF SE", role = "cph"))
+Description: An R Client for Zentracloud API 
+  <https://zentracloud.com/api/v1/guide#APIGuidelines>.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Suggests: 
+    testthat,
+    spelling
+Imports: 
+    httr,
+    jsonlite,
+    magrittr,
+    dplyr,
+    lubridate,
+    purrr,
+    methods,
+    data.table
+Language: en-US

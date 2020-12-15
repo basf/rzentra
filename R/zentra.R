@@ -51,10 +51,10 @@ zc_token <- function(username = Sys.getenv("ZC_USERNAME"),
 #' @rdname zentra
 #' @param token (required) authorization token as returned by [zc_token]
 #' @param sn (required) the serial number for the device
-#' @param start_time Return data with timestamps ≥ start_time.
+#' @param start_time Return data with timestamps greater or equal start_time.
 #'   Specify start_time in UTC seconds, e.g.
 #'   `r as.numeric(as.POSIXct("2020-01-20", origin = "1970-01-01"))`
-#' @param end_time Return data with timestamps ≥ end_time.
+#' @param end_time Return data with timestamps smaller or equal end_time.
 #'   Specify end_time in UTC seconds, , e.g.
 #'    `r as.numeric(as.POSIXct("2020-01-20", origin = "1970-01-01"))`
 #' @importFrom httr GET add_headers stop_for_status content modify_url
@@ -167,7 +167,7 @@ zc_statuses <- function(token = NULL, sn = NULL,
 
 #' retrieve readings of a device
 #' @rdname zentra
-#' @param start_mrid Return data with mrids ≥ start_mrid.
+#' @param start_mrid Return data with mrids greater or equal start_mrid.
 #'   This can be user to query data that has not been received yet,
 #'   see [guidelines](https://zentracloud.com/api/v1/guide#APIGuidelines).
 #' @importFrom httr GET add_headers stop_for_status content modify_url

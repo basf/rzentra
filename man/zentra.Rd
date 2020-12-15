@@ -17,15 +17,15 @@ zc_readings(token = NULL, sn = NULL, start_time = NULL, start_mrid = NULL)
 
 \item{sn}{(required) the serial number for the device}
 
-\item{start_time}{Return data with timestamps ≥ start_time.
+\item{start_time}{Return data with timestamps greater or equal start_time.
 Specify start_time in UTC seconds, e.g.
 1579474800)`}
 
-\item{end_time}{Return data with timestamps ≥ end_time.
+\item{end_time}{Return data with timestamps smaller or equal end_time.
 Specify end_time in UTC seconds, , e.g.
 1579474800))`}
 
-\item{start_mrid}{Return data with mrids ≥ start_mrid.
+\item{start_mrid}{Return data with mrids greater or equal start_mrid.
 This can be user to query data that has not been received yet,
 see \href{https://zentracloud.com/api/v1/guide#APIGuidelines}{guidelines}.}
 }

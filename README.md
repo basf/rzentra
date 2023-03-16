@@ -5,17 +5,15 @@
 
 <!-- badges: start -->
 
-[![Lifecycle:
-maturing](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)
-[![CRAN
-status](https://www.r-pkg.org/badges/version/rzentra)](https://CRAN.R-project.org/package=rzentra)
-[![R build
-status](https://github.com/basf/rzentra/workflows/R-CMD-check/badge.svg)](https://github.com/basf/rzentra/actions)
+[![Lifecycle: deprecated](https://img.shields.io/badge/lifecycle-deprecated-orange.svg)](https://www.tidyverse.org/lifecycle/#deprecated)
+[![CRAN status](https://www.r-pkg.org/badges/version/rzentra)](https://CRAN.R-project.org/package=rzentra)
+[![R build status](https://github.com/basf/rzentra/workflows/R-CMD-check/badge.svg)](https://github.com/basf/rzentra/actions)
 [![codecov](https://codecov.io/gh/basf/rzentra/branch/master/graph/badge.svg?token=DJ6PVJQLRZ)](https://codecov.io/gh/basf/rzentra)
 <!-- badges: end -->
 
-An R client for [Zentracloud
-API](https://zentracloud.com/api/v1/guide#APIGuidelines).
+An R client for [Zentracloud API](https://zentracloud.com/api/v1/guide#APIGuidelines).
+
+**DEPRECATED:** Please use the official client package: https://gitlab.com/meter-group-inc/pubpackages/zentracloud
 
 ## Installation
 
